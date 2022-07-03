@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/style.scss",
+        "../scss/_utilities.scss",
+        "../scss/_typography.scss",
+        "../scss/_component.scss",
+        "../scss/_color.scss",
+        "../scss/_animation.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
