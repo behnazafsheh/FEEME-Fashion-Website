@@ -1,0 +1,65 @@
+.pos-absolout{
+    position: absolute;
+}
+.pos-relative{
+    position: relative;
+}
+
+.z-99{
+z-index: 99;
+}
+.z-1{
+z-index: -1;
+}
+
+.mg-t{
+    margin-top: 5rem;
+}
+.mg-b{
+    margin-bottom: 5rem;
+}
+.mg-r{
+margin-right: 2rem;
+}
+
+.mg-left{
+    margin-left: 2rem;
+}
+.pd-t{
+    padding-top: 3rem;
+}
+.pd-b{
+    padding-bottom: 3rem;
+}
+.pd-r{
+    padding-right: 2rem;
+}
+
+.pd-left{
+    padding-left: 2rem;
+}
+
+.shadow{
+   box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;;
+}
+.w-100{
+    width: 100%;
+}
+.d-none{
+    display: none;
+}
+.pointer{
+    cursor: pointer;
+}
+.flex-center-row{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.flex-center-column{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}

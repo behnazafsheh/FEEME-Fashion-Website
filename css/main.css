@@ -1,1 +1,177 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+.pos-absolout {
+  position: absolute;
+}
+
+.pos-relative {
+  position: relative;
+}
+
+.z-99 {
+  z-index: 99;
+}
+
+.z-1 {
+  z-index: -1;
+}
+
+.mg-t {
+  margin-top: 5rem;
+}
+
+.mg-b {
+  margin-bottom: 5rem;
+}
+
+.mg-r {
+  margin-right: 2rem;
+}
+
+.mg-left {
+  margin-left: 2rem;
+}
+
+.pd-t {
+  padding-top: 3rem;
+}
+
+.pd-b {
+  padding-bottom: 3rem;
+}
+
+.pd-r {
+  padding-right: 2rem;
+}
+
+.pd-left {
+  padding-left: 2rem;
+}
+
+.shadow {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.d-none {
+  display: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.flex-center-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-center-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2 {
+  color: var(--text-color);
+}
+
+.text-sm {
+  font-size: 1rem;
+}
+
+.text-m {
+  font-size: 1.5rem;
+}
+
+.text-l {
+  font-size: 2rem;
+}
+
+.text-2xl {
+  font-size: 2.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+:root {
+  --primary-color: rgb(241,224,208);
+  --text-color: rgb(133,82,46);
+  --button-color: rgb(219,173,121);
+  --lightgray-color: rgb(163, 163, 163);
+  --black-color: rgb(0, 0, 0);
+  --white-color: rgb(255, 255, 255);
+  --gray-color: rgb(122, 122, 122);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: "Josefin Sans", sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+i {
+  font-size: 1.5rem;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.heaeder__menu__list li,
+.header__login__list li {
+  margin: 0 2rem;
+  color: var(--gray-color);
+}
+
+.active {
+  border: 0.3rem solid var(--button-color);
+  border-radius: 1rem;
+  transition: 0.3s ease-in-out;
+  padding: 1rem;
+}
+/*# sourceMappingURL=main.css.map */

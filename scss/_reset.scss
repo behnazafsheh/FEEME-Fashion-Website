@@ -1,28 +1,12 @@
-body {
-  background-color: aqua;
-}
-
-:root {
-  --primary-color: rgb(241,224,208);
-  --text-color: rgb(133,82,46);
-  --button-color: rgb(219,173,121);
-  --lightgray-color: rgb(229, 233, 232);
-  --black-color: rgb(0, 0, 0);
-  --white-color: rgb(255, 255, 255);
-  --gray-color: rgb(122, 122, 122);
-}
-
 * {
   padding: 0;
   margin: 0;
 }
-
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
-
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -31,10 +15,9 @@ html {
 
 body {
   font-size: 62.5%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   width: 100%;
   overflow-x: hidden;
-  background-color: var(--bg-color);
 }
 
 .container {
@@ -55,7 +38,5 @@ a {
 }
 
 i {
-  color: var(--white-color);
   font-size: 1.5rem;
 }
-/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,28 @@
+@import "utilities";
+@import "typography";
+@import "component";
+@import "color";
+@import "animation";
+@import "reset";
+
+.header-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+.heaeder__menu__list,
+.header__login__list {
+  li {
+    margin: 0 2rem;
+    // padding: 2rem;
+    color: var(--gray-color);
+  }
+}
+
+.active {
+  border: 0.3rem solid var(--button-color);
+  border-radius: 1rem;
+  transition: 0.3s ease-in-out;
+  padding: 1rem;
+}
