@@ -164,10 +164,6 @@ a {
   cursor: pointer;
 }
 
-i {
-  font-size: 1.5rem;
-}
-
 .header-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -290,12 +286,24 @@ i {
 
 .service-item {
   background-color: var(--khaki-color);
-  width: 4rem;
-  height: 5rem;
+  width: 7rem;
+  height: 7rem;
   border-radius: 1rem;
+  margin-bottom: 2rem;
 }
 
 .service-item i {
   color: var(--button-color);
+  font-size: 2rem;
+}
+
+.service-option p {
+  color: var(--gray-color);
+  margin-bottom: 1rem;
+}
+
+.service-option h3 {
+  color: var(--text-color);
+  margin-bottom: 5rem;
 }
 /*# sourceMappingURL=main.css.map */

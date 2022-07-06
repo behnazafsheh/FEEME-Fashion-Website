@@ -129,10 +129,25 @@
 
 .service-item{
     background-color: var(--khaki-color);
-    width: 4rem;
-    height: 5rem;
+    width: 7rem;
+    height: 7rem;
     border-radius: 1rem;
+    margin-bottom: 2rem;
     i{
         color: var(--button-color);
+        font-size: 2rem;
+    }
+}
+
+.service-option{
+    p{
+        color: var(--gray-color);
+        margin-bottom: 1rem;
+    }
+
+    h3{
+        color: var(--text-color);
+        margin-bottom: 5rem;
+
     }
 }
