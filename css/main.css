@@ -26,7 +26,7 @@
   margin-right: 2rem;
 }
 
-.mg-left {
+.mg-l {
   margin-left: 2rem;
 }
 
@@ -42,7 +42,7 @@
   padding-right: 2rem;
 }
 
-.pd-left {
+.pd-l {
   padding-left: 2rem;
 }
 
@@ -96,8 +96,20 @@ h1, h2 {
   font-size: 2.5rem;
 }
 
+.text-3xl {
+  font-size: 5rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.btn {
+  border: none;
+  border-radius: 1rem;
+  background-color: var(--button-color);
+  color: var(--gray-color);
+  padding: 1.5rem;
 }
 
 :root {
@@ -108,6 +120,7 @@ h1, h2 {
   --black-color: rgb(0, 0, 0);
   --white-color: rgb(255, 255, 255);
   --gray-color: rgb(122, 122, 122);
+  --khaki-color:rgb(255, 249, 242);
 }
 
 * {
@@ -173,5 +186,116 @@ i {
   border-radius: 1rem;
   transition: 0.3s ease-in-out;
   padding: 1rem;
+}
+
+.circle-background {
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  background-color: var(--button-color);
+  opacity: 0.5;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+.hero_image {
+  z-index: -99;
+}
+
+.hero_image img {
+  top: -73px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hero__description {
+  margin-left: 10rem;
+}
+
+.hero__description h3 {
+  color: var(--gray-color);
+  margin: 2rem 0;
+}
+
+.hero__description p {
+  color: var(--gray-color);
+  margin: 2rem 0;
+}
+
+.hero__description button:hover {
+  background-color: transparent;
+  border: 1px solid var(--button-color);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.hero__slider {
+  margin-left: -3rem;
+  z-index: 999;
+}
+
+.hero__slider h3 {
+  color: var(--text-color);
+  margin: 2rem 0;
+}
+
+.hero__slider p {
+  color: var(--gray-color);
+  margin-bottom: 2rem;
+}
+
+.hero__slider button {
+  border: none;
+  border-bottom: 1px solid var(--gray-color);
+  padding: 0.5rem;
+  background-color: transparent;
+}
+
+.hero__image-slider {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.image {
+  background: linear-gradient(183deg, #1d1007 0%, #ad6e42 100%);
+  margin: 2rem 2rem;
+  border-radius: 1rem;
+}
+
+.image img {
+  width: 100px;
+}
+
+.service {
+  background-color: var(--primary-color);
+}
+
+.service__description h3 {
+  color: var(--gray-color);
+  margin: 2rem 0;
+}
+
+.service__description p {
+  color: var(--gray-color);
+}
+
+.service__items-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 4rem;
+}
+
+.service-item {
+  background-color: var(--khaki-color);
+  width: 4rem;
+  height: 5rem;
+  border-radius: 1rem;
+}
+
+.service-item i {
+  color: var(--button-color);
 }
 /*# sourceMappingURL=main.css.map */
